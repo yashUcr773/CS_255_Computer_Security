@@ -1,0 +1,18 @@
+Please briefly answer following questions.
+
+From the "Click Trajectories" paper:
+
+What is the motivation/goal(s) of this work?
+What are the necessary infrastructure to host a spam website (i.e., the "click support")?
+What are the three strategies to disrupt the spammer's business model?
+What are the findings of this study (i.e., have they achieved their research goals)?
+From the "Effective and Efficient Malware Detection at the End Host" paper:
+
+What are nodes and edges in the behavior graph?
+Why system calls and why using a graph instead of sequences?
+The key to achieve "efficient detection" is to avoid using expensive dynamic data flow tracking (tainting) to determine the dependencies between system calls (i.e., match the edges during runtime), how does the proposed method work?
+From the "Virtual Machine Introspection" paper:
+
+Why the authors propose a virtual machine introspection (VMI)-based approach (i.e., what are their motivations)?
+What is the main challenge in developing a VMI-base host intrusion detection system (HIDS)?
+Can a VMI-based HIDS be attacked? If so, name two possible methods.
