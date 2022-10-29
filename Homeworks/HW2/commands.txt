@@ -1,0 +1,10 @@
+sudo dpkg -S libc.so.6
+>>>
+
+libc6:i386: /lib/i386-linux-gnu/libc.so.6
+libc6:amd64: /lib/x86_64-linux-gnu/libc.so.6
+libc6-i386: /lib32/libc.so.6
+
+>>>
+
+ROPgadget --binary '/lib32/libc.so.6' --ropchain > SomeFile.txt 
