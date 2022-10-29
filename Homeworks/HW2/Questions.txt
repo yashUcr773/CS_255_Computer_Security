@@ -1,0 +1,10 @@
+Please briefly answer the following questions:
+
+From the stack buffer overflow paper, what is NOP sledge and why it is useful?
+From the stack buffer overflow paper, what is the simplest way to find potential buffer overflow vulnerabilities?
+From the StackGuard paper, why did it mitigate the easy-to-guess canary problem?
+From the StackGuard paper, MemGuard provides better protection than StackGuard, why it is not widely adopted like StackGuard?
+From the ROP (return-oriented programming) paper, why does the Galileo algorithm scans backwards instead of forwards?
+ROPgadget. is a tool to facilitate ROP exploits, try its --ropchain option on a libc binary (e.g., /lib/x86_64-linux-gnu/libc.so.6) and explain how the found shellcode works, referring to Section 4 of the ROP paper.
+From the Control-flow Integrity (CFI) paper, what are the three requirements/assumptions for CFI enforcement?
+From the CFI paper, what is the strategy mentioned in the paper that can improve the accuracy of CFG?
