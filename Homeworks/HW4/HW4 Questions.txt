@@ -1,0 +1,22 @@
+Please briefly answer the following questions.
+
+From the "Android Permissions Remystified: A Field Study on Contextual Integrity" paper:
+
+What is "contextual integrity?"
+What kind of method have the authors tried to reduce the frequency of runtime permission requests?
+From the "Preventing Privilege Escalation" paper:
+
+When performing "privilege separation," what principle should be followed? In other words, if we treat this as an optimization problem, what should be maximized/minimized under what constraints?
+What kind of privileges are required by the "unprivileged child?"
+From the "Native Client: A Sandbox for Portable, Untrusted x86 Native Code" paper:
+
+How does native client enforce data integrity (i.e., constrain data access for code inside the inner sandbox)?
+How does native client enforce control-flow integrity?
+From the "Kerberos: An Authentication Service for Open Network Systems" paper:
+
+What is the threat model (i.e., what attackers can do and what kind of attacks this work aims to mitigate)?
+Authentication can be done based on what you know (e.g., password) and what you have (e.g., a secret), explain how a server authenticate the client, and how the client authenticate the server.
+From the "VC3: Trustworthy Data Analytics in the Cloud" paper:
+
+Section 5 describes a technique called "self-integrity." What kind of security threats does self-integrity aims to mitigate?
+Section 6.2 describes the key exchange protocol of VC3, where a secret key `k_w` is exchanged. Explain why only the client and the enclave knows `k_w`, and the untrusted cloud provider (including administrators, OS, and the hypervisor) cannot know `k_w`.
