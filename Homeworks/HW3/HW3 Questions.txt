@@ -1,0 +1,14 @@
+Please briefly answer the following questions.
+
+From the "An empirical study of the reliability of UNIX utilities" paper:
+
+What experience motivate the authors to conduct this more systematic experiment? Please explain what was the source of random inputs in that experience.
+What is the most common cause for crash?
+From the "EXE: Automatically Generating Inputs of Death" paper:
+
+How does EXE (or what does exe-cc insert to) find inputs that can crash the program?
+How does EXE map C code to symbolic constraints?
+From the "A First Step Towards Automated Detection of Buffer Overrun Vulnerabilities" paper:
+
+In the "Smashing the Stack for Fun and Profit" paper, the author suggested using grep to find use of dangerous libc APIs like strcat as potential location for buffer overflow. Compare to that simple static analysis (i.e.,, grep strcat), how does the approach proposed in this paper improves the precision and reduces false positives?
+Static analysis trades precision for scalability, give an example of the imprecise modelings (i.e., heuristics) discussed in this paper.
